@@ -9,18 +9,39 @@ import android.content.Intent;
 public class Main extends AppCompatActivity {
 
     public Button but1;
+    public Button but2;
+    public Button but3;
+    public Button but4;
+    public Button but5;
+    public Button but6;
+    public Button but7;
+    public Button but8;
 
         public void init() {
             but1 = (Button)findViewById(R.id.but1);
+
             but1.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
 
-                    Intent toy = new Intent(Main.this, Second.class);
-                    startActivity(toy);
+                    Intent i_1 = new Intent(Main.this, Second.class);
+                    startActivity(i_1);
                 }
             });
 
+        }
+
+        public void init2(){
+            but2 = (Button)findViewById(R.id.but2);
+
+            but2.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+
+                    Intent i_2 = new Intent(Main.this, Third.class);
+                    startActivity(i_2);
+                }
+            });
         }
 
 
@@ -30,6 +51,7 @@ public class Main extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         init();
+        init2();
 
     }
 }
