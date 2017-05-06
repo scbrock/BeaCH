@@ -1,5 +1,6 @@
 package com.example.stephenbrock.trial;
 
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -15,10 +16,17 @@ public class Main extends AppCompatActivity {
     public Button but5;
     public Button but6;
     public Button but7;
-    public Button but8;
+    public FloatingActionButton fab;
 
         public void init() {
             but1 = (Button)findViewById(R.id.but1);
+            but2 = (Button)findViewById(R.id.but2);
+            but3 = (Button)findViewById(R.id.but3);
+            but4 = (Button)findViewById(R.id.but4);
+            but5 = (Button)findViewById(R.id.but5);
+            but6 = (Button)findViewById(R.id.but6);
+            but7 = (Button)findViewById(R.id.but7);
+            fab = (FloatingActionButton)findViewById(R.id.fab);
 
             but1.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -29,11 +37,6 @@ public class Main extends AppCompatActivity {
                 }
             });
 
-        }
-
-        public void init2(){
-            but2 = (Button)findViewById(R.id.but2);
-
             but2.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -42,18 +45,61 @@ public class Main extends AppCompatActivity {
                     startActivity(i_2);
                 }
             });
-        }
-
-        public void init3() {
-            but3 = (Button)findViewById(R.id.but3);
 
             but3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent i_3 = new Intent(Main.this, Calendar.class);
+
+                    Intent i_3 = new Intent(Main.this, Fourth.class);
                     startActivity(i_3);
                 }
             });
+
+            but4.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+
+                    Intent i_4 = new Intent(Main.this, Fifth.class);
+                    startActivity(i_4);
+                }
+            });
+
+            but5.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+
+                    Intent i_5 = new Intent(Main.this, Sixth.class);
+                    startActivity(i_5);
+                }
+            });
+
+            but6.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+
+                    Intent i_6 = new Intent(Main.this, Seventh.class);
+                    startActivity(i_6);
+                }
+            });
+
+            but7.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+
+                    Intent i_7 = new Intent(Main.this, Eighth.class);
+                    startActivity(i_7);
+                }
+            });
+
+            fab.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+
+                    Intent i_8 = new Intent(Main.this, Calendar.class);
+                    startActivity(i_8);
+                }
+            });
+
         }
 
 
@@ -62,7 +108,5 @@ public class Main extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         init();
-        init2();
-        init3();
     }
 }
