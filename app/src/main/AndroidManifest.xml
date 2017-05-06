@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Second" />
-        <activity android:name=".Calendar"></activity>
+        <activity android:name=".Calendar" />
+        <activity android:name=".Upper_Easy"></activity>
     </application>
 
 </manifest>
