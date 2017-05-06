@@ -18,7 +18,9 @@
         </activity>
         <activity android:name=".Second" />
         <activity android:name=".Calendar" />
-        <activity android:name=".Upper_Easy"></activity>
+        <activity android:name=".upperEasy" />
+        <activity android:name=".upperMedium" />
+        <activity android:name=".upperHard"></activity>
     </application>
 
 </manifest>
