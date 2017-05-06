@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.stephenbrock.trial.Second">
+    tools:context="com.example.stephenbrock.trial.Third">
 
     <EditText
         android:id="@+id/editText3"
@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Upper Body"
+        android:text="Not Upper Body"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
     <EditText
