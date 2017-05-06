@@ -44,6 +44,17 @@ public class Main extends AppCompatActivity {
             });
         }
 
+        public void init3() {
+            but3 = (Button)findViewById(R.id.but3);
+
+            but3.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent i_3 = new Intent(Main.this, Calendar.class);
+                    startActivity(i_3);
+                }
+            });
+        }
 
 
     @Override
@@ -52,6 +63,6 @@ public class Main extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         init();
         init2();
-
+        init3();
     }
 }
