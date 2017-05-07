@@ -56,7 +56,7 @@
                     android:layout_marginLeft="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginStart="8dp"
-                    app:layout_constraintBottom_toTopOf="@+id/textView3"
+                    app:layout_constraintBottom_toTopOf="@+id/textView2"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toLeftOf="@+id/imageView4"
@@ -74,59 +74,26 @@
                     android:layout_height="wrap_content"
                     android:text="Equipment: Dumbbells, resistance bands, or anything that is weighted and fits in your hand (like soup cans).\n\n Exercises: Bicep curls, tricep extensions, and shoulder press.\n\n Do 8 to 12 reps and add on more weight as you feel comfortable.\n\n "
                     tools:layout_editor_absoluteX="8dp"
-                    tools:layout_editor_absoluteY="389dp" />
+                    tools:layout_editor_absoluteY="30dp" />
             </android.support.constraint.ConstraintLayout>
 
             <Button
-                android:id="@+id/butEasy"
+                android:id="@+id/butNext"
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="match_parent"
-                android:layout_height="139dp"
+                android:layout_height="90dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="57dp"
-                android:background="@android:color/holo_green_light"
-                android:text="Easy"
+                android:layout_marginTop="1dp"
+                android:background="@android:color/holo_purple"
+                android:text="Next"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
-                android:id="@+id/butMedium"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:layout_width="match_parent"
-                android:layout_height="140dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="7dp"
-                android:background="@android:color/holo_orange_light"
-                android:text="Medium"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/butEasy" />
-
-            <Button
-                android:id="@+id/butHard"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:layout_width="match_parent"
-                android:layout_height="140dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="7dp"
-                android:background="@android:color/holo_red_light"
-                android:text="Hard"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/butMedium" />
+                app:layout_constraintTop_toTopOf="parent"
+                tools:textSize="30sp" />
 
         </LinearLayout>
     </ScrollView>

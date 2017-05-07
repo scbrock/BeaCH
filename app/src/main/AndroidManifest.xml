@@ -20,7 +20,8 @@
         <activity android:name=".Calendar" />
         <activity android:name=".upperEasy" />
         <activity android:name=".upperMedium" />
-        <activity android:name=".upperHard"></activity>
+        <activity android:name=".upperHard" />
+        <activity android:name=".upperSelection"></activity>
     </application>
 
 </manifest>
