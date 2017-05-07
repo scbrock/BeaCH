@@ -15,7 +15,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Upper Body Selection Hard"
+        android:text="Upper Body Hard"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -24,10 +24,11 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="202dp" />
+        android:layout_width="365dp"
+        android:layout_height="458dp"
+        android:layout_marginTop="-12dp"
+        android:text="Bicep Curls\n\nRepeat for the 10-12 reps, 2-4 sets, and at an increased weight.\n\n Variations:\n There are many possible variations for this movement. For instance, you can perform the exercise sitting down on a bench with or without back support and you can also perform it by alternating arms; first lift the right arm for one repetition, then the left, then the right, etc.\n\nTricep\n\nVariations:\n\n You can perform this exercise standing as well but this puts strain on your back especially if you are using heavy dumbbells like 95 lbs or so.\n\n Another variation is to use an EZ or straight bar instead in which case you will be holding the bar from the inside (around 5 inches between both hands) with the palms facing forward (pronated grip).\n\n There is also a bar that has parallel bars inside (often referred to as a triceps blaster) and this can also be used for this exercise.\n\n Finally, a low pulley cable with a rope attachment or bar (straight or EZ) attachment at the end can be used for variety purposes as well.  "
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:layout_editor_absoluteX="10dp" />
 
 </android.support.constraint.ConstraintLayout>
