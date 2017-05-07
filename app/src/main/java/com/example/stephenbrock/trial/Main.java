@@ -18,7 +18,6 @@ public class Main extends AppCompatActivity {
     public Button but7;
     public FloatingActionButton fab;
 
-
         public void init() {
             but1 = (Button)findViewById(R.id.but1);
             but2 = (Button)findViewById(R.id.but2);
