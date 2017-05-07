@@ -76,7 +76,8 @@
                     android:id="@+id/textView3"
                     android:layout_width="358dp"
                     android:layout_height="wrap_content"
-                    android:text="Equipment: Dumbbells, resistance bands, or anything that is weighted and fits in your hand (like soup cans).\n\n Exercises: Bicep curls, tricep extensions, and shoulder press.\n\n Do 8 to 12 reps and add on more weight as you feel comfortable.\n\n "
+                    android:text="Equipment: Dumbbells, resistance bands, or anything that is weighted and fits in your hand (like soup cans).\n\nExercises: Bicep curls, tricep extensions, and shoulder press.\n\n Do 8 to 12 reps and add on more weight as you feel comfortable.\n\n "
+                    android:textAppearance="@style/TextAppearance.AppCompat"
                     tools:layout_editor_absoluteX="8dp"
                     tools:layout_editor_absoluteY="30dp" />
             </android.support.constraint.ConstraintLayout>
