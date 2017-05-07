@@ -6,4 +6,62 @@
     android:layout_height="match_parent"
     tools:context="com.example.stephenbrock.trial.Reborn2">
 
+    <ScrollView
+        android:layout_width="374dp"
+        android:layout_height="506dp"
+        tools:layout_editor_absoluteY="2dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Flexibility"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="358dp"
+                    android:layout_height="wrap_content"
+                    android:text="Stretch #1 Shoulder and Chest \n\nThis can be performed kneeling or standing. Clasp hands behind back and straighten arms. Raise hands as high as possible and bend forward from the waist and hold.  \n\nStretch #2 Arm Across Chest \n\nPlace one arm straight across chest. place hand on elbow and pull arm towards chest and hold. Repeat with other arm.   \n\nStretch #3 Triceps Stretch \n\nPlace one hand behind back with elbow in air. Place other hand on elbow and gently pull towards head. Hold and repeat with other arm.   \n\nStretch #4 Glute Stretch \n\nSitting on floor with right leg bent, place right foot over left leg. Place left arm over right leg so elbow can be used to push right knee. Hold and repeat for other side.   \n\nStretch #5 Adductor Stretch \n\nStand with feet as wide apart as is comfortable. Shift weight to one side as knee bends. Reach towards extended foot and hold. Repeat for other side.   \n\nStretch #6 Single Leg Hamstring \n\nPlace leg out straight and bend the other so your foot is flat into your thigh. Bend forward from the waist keeping your back flat. Hold and repeat with the other leg. "
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:layout_marginRight="8dp"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    android:layout_marginBottom="8dp" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
 </android.support.constraint.ConstraintLayout>
+

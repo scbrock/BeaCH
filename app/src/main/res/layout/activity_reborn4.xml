@@ -6,4 +6,65 @@
     android:layout_height="match_parent"
     tools:context="com.example.stephenbrock.trial.Reborn4">
 
+    <ScrollView
+        android:layout_width="374dp"
+        android:layout_height="506dp"
+        tools:layout_editor_absoluteY="2dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Spiritual"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="358dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Test your recall\n\nMake a list — of grocery items, things to do, or anything else that comes to mind — and memorize it. An hour or so later, see how many items you can recall. Make items on the list as challenging as possible for the greatest mental stimulation.\n\nLet the music play\n\nLearn to play a musical instrument or join a choir. Studies show that learning something new and complex over a longer period of time is ideal for the aging mind.\n\nDo math in your head\n\nFigure out problems without the aid of pencil, paper, or computer; you can make this more difficult — and athletic — by walking at the same time.\n\nLearn a foreign language\n\nThe listening and hearing involved stimulates the brain. What’s more, a rich vocabulary has been linked to a reduced risk for cognitive decline.\n\nCreate word pictures\n\nVisualize the spelling of a word in your head, then try and think of any other words that begin (or end) with the same two letters.\n\nChallenge your taste buds\n\nWhen eating, try to identify individual ingredients in your meal, including subtle herbs and spices."
+
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
 </android.support.constraint.ConstraintLayout>
+
+
