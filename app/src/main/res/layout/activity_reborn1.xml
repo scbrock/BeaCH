@@ -6,4 +6,74 @@
     android:layout_height="match_parent"
     tools:context="com.example.stephenbrock.trial.Reborn1">
 
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Lower Body"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="163dp"
+            android:layout_height="156dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/imageView4"
+            app:srcCompat="@drawable/wheelchairquadextension" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="358dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Equipment: Chair, resistance bands, and/or ankle weights.\n\nExercises: Calf Raises, Hamstring Curl, Inner Thigh Lift, Outer Thigh Exercise, Quadriceps Extension.\n\nDo 8 to 12 reps and add on more weight as you feel comfortable.\n\n "
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="111dp" />
+
+        <Button
+            android:id="@+id/butNext"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="1dp"
+            android:background="@android:color/holo_purple"
+            android:text="Next"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:textSize="30sp"
+            android:layout_weight="0.82" />
+
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

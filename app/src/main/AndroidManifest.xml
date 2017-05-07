@@ -27,7 +27,11 @@
         <activity android:name=".Reborn3" />
         <activity android:name=".Reborn4" />
         <activity android:name=".Reborn5" />
-        <activity android:name=".Reborn6"></activity>
+        <activity android:name=".Reborn6" />
+        <activity android:name=".lowerSelection" />
+        <activity android:name=".lowerEasy" />
+        <activity android:name=".lowerMedium" />
+        <activity android:name=".lowerHard"></activity>
     </application>
 
 </manifest>

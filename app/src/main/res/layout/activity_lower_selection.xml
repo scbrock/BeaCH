@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.stephenbrock.trial.upperSelection">
+    tools:context="com.example.stephenbrock.trial.lowerSelection">
 
     <TextView
         android:id="@+id/textView2"
@@ -15,7 +15,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Upper Body Selection"
+        android:text="Lower Body Selection"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintLeft_toLeftOf="parent"
