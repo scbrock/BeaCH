@@ -46,7 +46,7 @@
                     android:id="@+id/textView3"
                     android:layout_width="358dp"
                     android:layout_height="wrap_content"
-                    android:text="Eight Habits that Improve Cognitive Function\n\n 1. Physical Activity\n\n 2. Openness to Experience\n\n 3. Curiosity and Creativity\n\n 4. Social Connections\n\n 5. Mindfulness Meditation\n\n 6. Brain-Training Games\n\n 7. Get Enough Sleep\n\n 8. Reduce Chronic Stress\n\n"
+                    android:text="Eight Habits that Improve Cognitive Function\n\n 1. Physical Activity\n\n 2. Openness to Experience\n\n 3. Curiosity and Creativity\n\n 4. Social Connections\n\n 5. Mindfulness Meditation\n\n 6. Brain-Training Games\n\n 7. Get Enough Sleep\n\n 8. Reduce Chronic Stress\n\nhttps://www.psychologytoday.com/blog/the-athletes-way/201403/eight-habits-improve-cognitive-function\n\n"
                     android:textAppearance="@style/TextAppearance.AppCompat"
                     tools:layout_editor_absoluteX="8dp"
                     tools:layout_editor_absoluteY="30dp" />

@@ -46,7 +46,7 @@
                     android:id="@+id/textView3"
                     android:layout_width="358dp"
                     android:layout_height="wrap_content"
-                    android:text="Boxing\n\n Make a fist and start swinging to burn calories and raise your heart rate. Purchase a boxing DVD, a mobile punching bag or imagine yourself as a boxing great and punch thin air to cash in 390 calories per hour, according to HealthStatus.com. Another option is to purchase an interactive video game system, such as Nintendo Wii. The Wii includes many games such as boxing, tennis, baseball and bowling that are sure to keep you active."
+                    android:text="Boxing\n\n Make a fist and start swinging to burn calories and raise your heart rate. Purchase a boxing DVD, a mobile punching bag or imagine yourself as a boxing great and punch thin air to cash in 390 calories per hour, according to HealthStatus.com. Another option is to purchase an interactive video game system, such as Nintendo Wii. The Wii includes many games such as boxing, tennis, baseball and bowling that are sure to keep you active.\n\nhttp://www.exercisemenu.com/exercise-with-disabled-legs-2/\n\n"
                     android:textAppearance="@style/TextAppearance.AppCompat"
                     tools:layout_editor_absoluteX="8dp"
                     tools:layout_editor_absoluteY="30dp" />
