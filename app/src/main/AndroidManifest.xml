@@ -21,7 +21,13 @@
         <activity android:name=".upperEasy" />
         <activity android:name=".upperMedium" />
         <activity android:name=".upperHard" />
-        <activity android:name=".upperSelection"></activity>
+        <activity android:name=".upperSelection" />
+        <activity android:name=".Reborn1" />
+        <activity android:name=".Reborn2" />
+        <activity android:name=".Reborn3" />
+        <activity android:name=".Reborn4" />
+        <activity android:name=".Reborn5" />
+        <activity android:name=".Reborn6"></activity>
     </application>
 
 </manifest>

@@ -42,7 +42,7 @@ public class Main extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
 
-                    Intent i_2 = new Intent(Main.this, Third.class);
+                    Intent i_2 = new Intent(Main.this, Reborn1.class);
                     startActivity(i_2);
                 }
             });
@@ -51,7 +51,7 @@ public class Main extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
 
-                    Intent i_3 = new Intent(Main.this, Fourth.class);
+                    Intent i_3 = new Intent(Main.this, Reborn2.class);
                     startActivity(i_3);
                 }
             });
@@ -60,7 +60,7 @@ public class Main extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
 
-                    Intent i_4 = new Intent(Main.this, Fifth.class);
+                    Intent i_4 = new Intent(Main.this, Reborn3.class);
                     startActivity(i_4);
                 }
             });
@@ -69,7 +69,7 @@ public class Main extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
 
-                    Intent i_5 = new Intent(Main.this, Sixth.class);
+                    Intent i_5 = new Intent(Main.this, Reborn4.class);
                     startActivity(i_5);
                 }
             });
@@ -78,7 +78,7 @@ public class Main extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
 
-                    Intent i_6 = new Intent(Main.this, Seventh.class);
+                    Intent i_6 = new Intent(Main.this, Reborn5.class);
                     startActivity(i_6);
                 }
             });
@@ -87,7 +87,7 @@ public class Main extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
 
-                    Intent i_7 = new Intent(Main.this, Eighth.class);
+                    Intent i_7 = new Intent(Main.this, Reborn6.class);
                     startActivity(i_7);
                 }
             });
