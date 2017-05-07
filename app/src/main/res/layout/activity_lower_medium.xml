@@ -6,4 +6,53 @@
     android:layout_height="match_parent"
     tools:context="com.example.stephenbrock.trial.lowerMedium">
 
+    <ScrollView
+        android:layout_width="374dp"
+        android:layout_height="506dp"
+        tools:layout_editor_absoluteY="2dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Lower Body Medium"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="358dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="Calf Raises: 3 sets * 12 reps, 20s rest between sets\n\nHamstring Curl: 3 sets * 12 reps, 20s rest between sets\n\nInner Thigh Lift: 3 sets * 10 reps, 20s rest between sets\n\nOuter Thigh Exercise: 3 sets * 12 reps, 30s rest between sets\n\nQuadriceps Extension: 3 sets * 12 reps, 30s rest between sets\n"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
 </android.support.constraint.ConstraintLayout>
